@@ -4,5 +4,5 @@ def w_square():
   move(100)
   
   
-w_square
+w_square()
   
