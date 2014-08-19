@@ -1,6 +1,6 @@
 from tealight.logo import move, turn
 
-# Draws the triangle fractal.
+# Draws the triangle fractal
 
 def segment(scale, detail):
   
