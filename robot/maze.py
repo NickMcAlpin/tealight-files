@@ -25,4 +25,4 @@ def movement():
     move()
     
 while 1:
-  move()
+  movement()
