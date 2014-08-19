@@ -1,5 +1,7 @@
 from tealight.logo import *
 
+# Creates chessboard
+
 def w_square():
   for i in range(0,4):
     move(25)
