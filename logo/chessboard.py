@@ -4,6 +4,6 @@ def w_square():
   for i in range(0,4):
     move(25)
     turn(90)
-    color(black)
+    color("black")
   
 w_square()
