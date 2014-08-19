@@ -16,4 +16,4 @@ for x in range (0,8):
   move(25)
   turn(90)
   move(200)
-  turn(-180)
+  turn(180)
