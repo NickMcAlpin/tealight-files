@@ -6,4 +6,6 @@ def w_square():
     turn(90)
     color("black")
   
-w_square()
+for i in range(0,8):
+  w_square()
+  
