@@ -2,7 +2,7 @@ from tealight.logo import *
 
 # Creates chessboard
 
-def c_square():
+def c_wsquare():
   for i in range(0,4):
     move(25)
     turn(90)
