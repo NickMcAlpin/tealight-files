@@ -1,3 +1,4 @@
 from tealight.logo import *
 
-move(60)
+turn(-90)
+move(300)
