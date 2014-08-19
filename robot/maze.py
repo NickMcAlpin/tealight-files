@@ -12,9 +12,10 @@ def movement():
       if right_side() == 'wall':
         turn(1)
         while touch() == 'wall':
-          turn(1)
-          move()
           if left_side() != 'wall':
+            turn(-1)
+            move()
+          if left_side() != 'wall' && right_side() != 'wall':
             turn(-1)
             move()
           else:
