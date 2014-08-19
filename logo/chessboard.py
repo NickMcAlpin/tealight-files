@@ -1,3 +1,3 @@
-from tealight.logo import all
+from tealight.logo import *
 
 move(60)
