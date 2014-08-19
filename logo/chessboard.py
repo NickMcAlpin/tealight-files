@@ -1,8 +1,8 @@
 from tealight.logo import *
 
 def w_square():
-  move(100)
+  move(15)
   turn(90)
-  
+  move
   
 w_square()
