@@ -15,3 +15,5 @@ for x in range (0,8):
   turn(90)
   move(200)
   turn(-90)
+  move(25)
+  turn(90)
