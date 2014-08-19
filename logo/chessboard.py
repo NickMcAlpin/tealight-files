@@ -16,7 +16,7 @@ def c_bsquare():
   
 for x in range (0,8):
   for i in range(0,8):
-    c_square()
+    c_wsquare()
     move(25)
   turn(90)
   move(25)
