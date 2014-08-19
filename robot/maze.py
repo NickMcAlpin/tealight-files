@@ -16,6 +16,7 @@ while 1:
           turn(1)
           move()
       else:
+        turn(1)
         move()
     else:
       move()
