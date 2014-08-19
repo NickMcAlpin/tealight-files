@@ -18,8 +18,12 @@ def movement():
             turn(-1)
             move()
           else:
-            turn(1)
-            move()
+            if right_side() != 'wall':
+              turn(1)
+              move()
+            else:
+              turn(2)
+              move()
       else:
         turn(1)
         move()
