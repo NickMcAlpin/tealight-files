@@ -5,4 +5,3 @@ def w_square():
   
   
 w_square()
-  
