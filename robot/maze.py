@@ -22,4 +22,7 @@ def move():
       turn(-1)
       move()
   else:
-    move()    
+    move()
+    
+while 1:
+  move()
