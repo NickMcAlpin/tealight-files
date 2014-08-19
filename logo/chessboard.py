@@ -7,7 +7,6 @@ def w_square():
     color("black")
   
 for x in range(0,8):
-  
   for i in range(0,8):
     w_square()
     move(25)
