@@ -1,4 +1,4 @@
 from tealight.logo import *
 
 turn(-90)
-move(300)
+move(150)
