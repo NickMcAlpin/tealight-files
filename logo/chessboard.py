@@ -9,4 +9,8 @@ def w_square():
 for x in range (0,8):
   for i in range(0,8):
     w_square()
-    move(25)  
+    move(25)
+  turn(90)
+  move(25)
+  turn(90)
+  move(200)
