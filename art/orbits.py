@@ -6,6 +6,7 @@ vx = 0
 vy = 0
 ax = 0
 ay = 0
+grav = 1
 
 power = 0.3
 
