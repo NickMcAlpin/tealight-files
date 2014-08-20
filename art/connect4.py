@@ -1,4 +1,5 @@
 from tealight.logo import *
+
 # Creates chessboard
 
 def c_wsquare():
