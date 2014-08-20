@@ -38,7 +38,9 @@ def handle_frame():
   
   spot(x,y,8)
   vx = vx + ax
-  if y == "0":
+  if y == "200" or "-200":
+    vy = vy + ay
+  else:
     vy = vy + ay - grav
   
   x = x + vx
