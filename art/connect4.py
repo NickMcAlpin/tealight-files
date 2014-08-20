@@ -1,7 +1,5 @@
 from tealight.logo import (move, turn, color)
 
-# Creates chessboard
-
 def c_square():
   for i in range(0,4):
     move(25)
