@@ -1,14 +1,8 @@
-from tealight.logo import move, turn, color
+from tealight.logo import (move, turn, color)
 
 # Creates chessboard
 
-def c_wsquare():
-  for i in range(0,4):
-    move(25)
-    turn(90)
-    color("black")
-    
-def c_bsquare():
+def c_square():
   for i in range(0,4):
     move(25)
     turn(90)
@@ -17,7 +11,7 @@ def c_bsquare():
   
 for x in range (0,8):
   for i in range(0,8):
-    c_wsquare()
+    c_square()
     move(25)
   turn(90)
   move(25)
