@@ -40,7 +40,7 @@ def handle_frame():
   vx = vx + ax
   vy = vy + ay - grav
   
-  if x == 0:
+  if x == "0":
     vx = -vx
   else:
     x = x + vx
