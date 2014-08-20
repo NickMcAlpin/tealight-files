@@ -1,4 +1,4 @@
-from tealight.art import (color, line, spot, circle, box, image, text, background)
+from tealight.art import (color, line, spot, circle, box, image, text, background, screen_width, screen_height)
 
 x = 600
 y = 400
@@ -45,8 +45,6 @@ def handle_frame():
   else:
     x = x + vx
     
-  
-
   y = y + vy
   
   color("blue")
