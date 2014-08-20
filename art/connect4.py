@@ -4,7 +4,7 @@ from tealight.logo import move, turn, color
 
 def c_wsquare():
   for i in range(0,4):
-    #move(25)
+    move(25)
     turn(90)
     color("black")
     
