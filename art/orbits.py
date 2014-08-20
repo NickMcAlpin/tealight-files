@@ -40,12 +40,17 @@ def handle_frame():
   vx = vx + ax
   vy = vy + ay - grav
   
-  if x <= 0:
+  if x <= 0 or x >= 900:
     vx = -vx
+    ax = -0.8*ax
   else:
     x = x + vx
     
-  y = y + vy
+  if y <= 0 or y >= 900:
+    vy = -vx
+    ax = -0.8*ax
+  else:
+    y = y + vy
   
   color("blue")
   
