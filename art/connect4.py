@@ -1,3 +1,3 @@
 from tealight.art import rectangle
 
-rectangle
+rectangle(200,200,200,200)
