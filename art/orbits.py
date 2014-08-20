@@ -38,12 +38,15 @@ def handle_frame():
   
   spot(x,y,8)
   vx = vx + ax
-  if y == "200" or "-200":
-    vy = vy + ay
-  else:
-    vy = vy + ay - grav
+  vy = vy + ay - grav
   
-  x = x + vx
+  if x == 0:
+    vx = -vx
+  else:
+    x = x + vx
+    
+  
+
   y = y + vy
   
   color("blue")
