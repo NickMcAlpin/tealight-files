@@ -55,4 +55,5 @@ def checkwin():
       else:
         return 0
 
-print(checkwin())
+checkVertical()
+#print(checkwin())
