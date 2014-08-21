@@ -6,4 +6,4 @@ def rectangle(x, y, width, height):
   line(width, y, width, height)
   line(x, y, x, height)
   
-rectangle(20,20,20,20)
+rectangle(100,100,100,100)
