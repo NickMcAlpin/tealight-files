@@ -8,6 +8,8 @@ def initialiseMatrix():
   
   return matrix
 
+initialiseMatrix()
+
 #check diagonal from left to right
 def checkDiagonalLR():
   for row in range(0,6):
