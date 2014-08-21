@@ -1,3 +1,6 @@
 from tealight.art import *
 
-def rectangle(
+def rectangle(x, y, width, height):
+  line(x, y, width, height)
+  
+rectangle()
