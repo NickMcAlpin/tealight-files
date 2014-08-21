@@ -9,7 +9,6 @@ def initialiseMatrix():
   
   print(matrix)
   print(len(matrix))
-  print(true)
   return matrix
 
 
