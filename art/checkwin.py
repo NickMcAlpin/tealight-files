@@ -10,7 +10,7 @@ def initialiseMatrix():
   
   return matrix
 
-initialiseMatrix()
+matrix = initialiseMatrix()
 
 #check diagonal from left to right
 def checkDiagonalLR():
@@ -54,6 +54,5 @@ def checkwin():
         
       else:
         return 0
-
-checkVertical()
-#print(checkwin())
+      
+print(checkwin())
