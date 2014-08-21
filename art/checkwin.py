@@ -21,3 +21,5 @@ def checkwin():
         
       else:
         return 0
+      
+print(checkwin())
