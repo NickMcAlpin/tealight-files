@@ -5,8 +5,6 @@ def initialiseMatrix():
   matrix = [[0 for i in range(7)] for j in range(7)]
   return matrix
 
-matrix = initialiseMatrix()
-
 def checkwin(matrix):
   for row in range(0,6):
     for col in range (0,6):
